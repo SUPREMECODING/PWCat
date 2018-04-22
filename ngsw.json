@@ -1,18 +1,18 @@
 {
   "configVersion": 1,
-  "index": "/PWCat/index.html",
+  "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/PWCat/favicon.ico",
-        "/PWCat/index.html",
-        "/PWCat/inline.318b50c57b4eba3d437b.bundle.js",
-        "/PWCat/main.41778b1b5bcf79047ce5.bundle.js",
-        "/PWCat/polyfills.b6b2cd0d4c472ac3ac12.bundle.js",
-        "/PWCat/styles.7bd461a98737fde4acd3.bundle.css"
+        "/favicon.ico",
+        "/index.html",
+        "/inline.318b50c57b4eba3d437b.bundle.js",
+        "/main.9858878560209cd9d281.bundle.js",
+        "/polyfills.b6b2cd0d4c472ac3ac12.bundle.js",
+        "/styles.7bd461a98737fde4acd3.bundle.css"
       ],
       "patterns": []
     },
@@ -21,21 +21,23 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "/PWCat/assets/img/icon-512x512.png"
+        "/assets/img/cat_offline.jpg",
+        "/assets/img/icon-512x512.png"
       ],
       "patterns": [
-        "https:\\/\\/cataas\\.com\\/cat\\/says\\/.*"
+        "https:\\/\\/cataas\\.com\\/.*"
       ]
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/PWCat/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
-    "/PWCat/assets/img/icon-512x512.png": "bda28fba12b37d80b240add70a6dd21dc587e7e4",
-    "/PWCat/main.41778b1b5bcf79047ce5.bundle.js": "ef19aafa42830cff494b9dba30ca9a306106fa5f",
-    "/PWCat/polyfills.b6b2cd0d4c472ac3ac12.bundle.js": "b092f5c27ff4222179ae3e9e3164c8cc6caa09cf",
-    "/PWCat/styles.7bd461a98737fde4acd3.bundle.css": "2d54a334bf71713644c3c2f6aeed7da1ab2a647c",
-    "/PWCat/favicon.ico": "012a98e38f3a34f95d15030f005120661a6ea723",
-    "/PWCat/index.html": "2433ff7bba4638bf0f3975cc5cfb8c5bf750d8db"
+    "/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
+    "/assets/img/cat_offline.jpg": "51e742478f7e0eafcd4dc8df8b440d7c1a80c220",
+    "/main.9858878560209cd9d281.bundle.js": "b5edb1948db71e56211b357647b10de943d6fbec",
+    "/assets/img/icon-512x512.png": "bda28fba12b37d80b240add70a6dd21dc587e7e4",
+    "/polyfills.b6b2cd0d4c472ac3ac12.bundle.js": "b092f5c27ff4222179ae3e9e3164c8cc6caa09cf",
+    "/styles.7bd461a98737fde4acd3.bundle.css": "2d54a334bf71713644c3c2f6aeed7da1ab2a647c",
+    "/favicon.ico": "012a98e38f3a34f95d15030f005120661a6ea723",
+    "/index.html": "2bbdfed41cc8484f6cde5789ab0a9932500b6bcf"
   }
 }
