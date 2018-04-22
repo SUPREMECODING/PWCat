@@ -6,7 +6,8 @@
     "resources": {
       "files": [
         "/favicon.ico",
-        "/index.html"
+        "/index.html",
+        "/assets/**"
       ],
       "versionedFiles": [
         "/*.bundle.css",
@@ -20,7 +21,10 @@
     "updateMode": "prefetch",
     "resources": {
       "files": [
-        "/assets/**"
+        
+      ],
+      "urls": [
+        "https://cataas.com/**"
       ]
     }
   }]

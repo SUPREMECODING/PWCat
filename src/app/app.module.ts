@@ -19,7 +19,7 @@ import { FormsModule } from '@angular/forms';
     MatToolbarModule,
     MatCardModule,
     MatButtonModule,
-    environment.production ? ServiceWorkerModule.register('ngsw-worker.js') : []
+    environment.production ? ServiceWorkerModule.register('/ngsw-worker.js') : []
   ],
   providers: [],
   bootstrap: [AppComponent]

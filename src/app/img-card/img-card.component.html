@@ -3,14 +3,15 @@
   <mat-card class="mat-card">
     <button 
       class="mat-button"
-      color="primary" 
+      color="{{ button.color }}" 
       (click)="generateSrc()"
       mat-button 
+      disabled = "{{ button.disabled }}"
       mat-raised-button>
-      Give me another cat
+      {{ button.text }}
     </button>
     <img 
-      src="{{ src }}"
+      src="{{src}}"
       alt="Cute cat"
       mat-card-image>
     
